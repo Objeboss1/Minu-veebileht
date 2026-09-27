@@ -20,22 +20,13 @@ body {
 }
 
 .hero,
-main,
-footer {
+main {
   width: min(720px, calc(100% - 2rem));
   margin-inline: auto;
 }
 
 .hero {
   padding: 4.5rem 0 2rem;
-}
-
-.eyebrow {
-  margin: 0 0 0.5rem;
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--accent);
 }
 
 h1 {
@@ -114,10 +105,8 @@ h2 {
   font-weight: 650;
 }
 
-footer {
-  padding: 1rem 0 3rem;
-  color: var(--muted);
-  font-size: 0.9rem;
+main {
+  padding-bottom: 3rem;
 }
 
 @media (max-width: 520px) {
